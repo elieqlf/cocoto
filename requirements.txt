@@ -1,0 +1,12 @@
+numpy>=1.24
+opencv-python>=4.8
+pillow>=10.0
+customtkinter>=5.2
+requests>=2.31
+pyautogui>=0.9.54 ; platform_system == "Windows"
+mss>=9.0
+keyboard>=0.13 ; platform_system == "Windows"
+easyocr>=1.7
+# Optionnel : contrôle à distance par ton propre bot Discord
+# discord.py>=2.3
+zstandard>=0.22   # tools/extract_assets.py et dump_constants.py

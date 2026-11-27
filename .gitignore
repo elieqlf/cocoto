@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+# Ressources extraites de ta copie de CoCoBot (non redistribuables)
+assets/
+# Données utilisateur locales
+data/
+.pytest_cache/
+# Notes de rétro-ingénierie (textes de CoCoBot) : régénérables avec tools/dump_constants.py
+re_notes/
+# Sorties des sondes et archives
+probe_out/
+calibration.png
+dist/
+# Exécutable de CoCoBot (payant, non redistribuable)
+*.exe
+error_shots/
